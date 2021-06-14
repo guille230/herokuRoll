@@ -1,7 +1,7 @@
 <?php return array (
   'app' => 
   array (
-    'name' => 'Laravel',
+    'name' => 'Fireroll',
     'env' => 'local',
     'debug' => true,
     'url' => 'http://127.0.0.1:8000',
@@ -181,7 +181,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'C:\\xampp\\htdocs\\Proytecto FInal true\\prueba\\pruebaVista\\storage\\framework/cache/data',
+        'path' => 'C:\\xampp\\htdocs\\prueba her\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -221,7 +221,7 @@
         'endpoint' => NULL,
       ),
     ),
-    'prefix' => 'laravel_cache',
+    'prefix' => 'fireroll_cache',
   ),
   'cors' => 
   array (
@@ -320,7 +320,7 @@
       'options' => 
       array (
         'cluster' => 'redis',
-        'prefix' => 'laravel_database_',
+        'prefix' => 'fireroll_database_',
       ),
       'default' => 
       array (
@@ -348,12 +348,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\xampp\\htdocs\\Proytecto FInal true\\prueba\\pruebaVista\\storage\\app',
+        'root' => 'C:\\xampp\\htdocs\\prueba her\\storage\\app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'C:\\xampp\\htdocs\\Proytecto FInal true\\prueba\\pruebaVista\\storage\\app/public',
+        'root' => 'C:\\xampp\\htdocs\\prueba her\\storage\\app/public',
         'url' => 'http://127.0.0.1:8000/storage',
         'visibility' => 'public',
       ),
@@ -370,7 +370,7 @@
     ),
     'links' => 
     array (
-      'C:\\xampp\\htdocs\\Proytecto FInal true\\prueba\\pruebaVista\\public\\storage' => 'C:\\xampp\\htdocs\\Proytecto FInal true\\prueba\\pruebaVista\\storage\\app/public',
+      'C:\\xampp\\htdocs\\prueba her\\public\\storage' => 'C:\\xampp\\htdocs\\prueba her\\storage\\app/public',
     ),
   ),
   'fortify' => 
@@ -445,13 +445,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'C:\\xampp\\htdocs\\Proytecto FInal true\\prueba\\pruebaVista\\storage\\logs/laravel.log',
+        'path' => 'C:\\xampp\\htdocs\\prueba her\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'C:\\xampp\\htdocs\\Proytecto FInal true\\prueba\\pruebaVista\\storage\\logs/laravel.log',
+        'path' => 'C:\\xampp\\htdocs\\prueba her\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -502,7 +502,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'C:\\xampp\\htdocs\\Proytecto FInal true\\prueba\\pruebaVista\\storage\\logs/laravel.log',
+        'path' => 'C:\\xampp\\htdocs\\prueba her\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -552,14 +552,14 @@
     'from' => 
     array (
       'address' => NULL,
-      'name' => 'Laravel',
+      'name' => 'Fireroll',
     ),
     'markdown' => 
     array (
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'C:\\xampp\\htdocs\\Proytecto FInal true\\prueba\\pruebaVista\\resources\\views/vendor/mail',
+        0 => 'C:\\xampp\\htdocs\\prueba her\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -660,7 +660,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'C:\\xampp\\htdocs\\Proytecto FInal true\\prueba\\pruebaVista\\storage\\framework/sessions',
+    'files' => 'C:\\xampp\\htdocs\\prueba her\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -669,7 +669,7 @@
       0 => 2,
       1 => 100,
     ),
-    'cookie' => 'laravel_session',
+    'cookie' => 'fireroll_session',
     'path' => '/',
     'domain' => NULL,
     'secure' => false,
@@ -688,9 +688,9 @@
   array (
     'paths' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\Proytecto FInal true\\prueba\\pruebaVista\\resources\\views',
+      0 => 'C:\\xampp\\htdocs\\prueba her\\resources\\views',
     ),
-    'compiled' => 'C:\\xampp\\htdocs\\Proytecto FInal true\\prueba\\pruebaVista\\storage\\framework\\views',
+    'compiled' => 'C:\\xampp\\htdocs\\prueba her\\storage\\framework\\views',
   ),
   'flare' => 
   array (
@@ -735,7 +735,7 @@
   'livewire' => 
   array (
     'class_namespace' => 'App\\Http\\Livewire',
-    'view_path' => 'C:\\xampp\\htdocs\\Proytecto FInal true\\prueba\\pruebaVista\\resources\\views/livewire',
+    'view_path' => 'C:\\xampp\\htdocs\\prueba her\\resources\\views/livewire',
     'layout' => 'layouts.app',
     'asset_url' => NULL,
     'middleware_group' => 'web',
